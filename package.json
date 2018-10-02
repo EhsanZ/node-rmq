@@ -1,0 +1,28 @@
+{
+  "name": "rmq",
+  "version": "1.0.0",
+  "description": "An POC of how to use amqp protocol from rabbitmq on express.js",
+  "main": "sender.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/EhsanZ/node-rmq.git"
+  },
+  "keywords": [
+    "rabbitmq",
+    "expressjs",
+    "messaging",
+    "event-system"
+  ],
+  "author": "Ehsan Zumrut",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EhsanZ/node-rmq/issues"
+  },
+  "homepage": "https://github.com/EhsanZ/node-rmq#readme",
+  "dependencies": {
+    "amqplib": "^0.5.2"
+  }
+}
